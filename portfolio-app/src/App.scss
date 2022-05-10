@@ -3,6 +3,30 @@ $primary-color: #ffd700;
 @import 'animate.css';
 
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('./assets/fonts/helvetica-nue.tff') format('ttf');
+  font-family: 'FiraSans';
+  src: url('./assets/fonts/FiraSans-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'FiraSans Bold';
+  src: url('./assets/fonts/FiraSans-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Cookie';
+  src: url('./assets/fonts/Cookie-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Courier Prime Italic';
+  src: url('./assets/fonts/CourierPrime-Italic.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Courier Prime Bold Italic';
+  src: url('./assets/fonts/CourierPrime-BoldItalic.ttf') format('ttf');
+}
+
+input,
+textarea{
+  font-family: 'FiraSans';
 }
