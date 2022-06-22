@@ -1,6 +1,6 @@
 .nav-bar {
-  background: #427575;
-  width: 60px;
+  background: #FAA894;
+  width: 80px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -14,7 +14,7 @@
     img{
       display: block;
       margin: 8px auto;
-      width: 24px;
+      width: 74px;
       height: auto;
     }
   }
@@ -42,7 +42,7 @@
       }
 
       &:hover {
-        color:#E8EDED;
+        color:#F7EEDE;
 
         svg {
           opacity: 0;
@@ -76,6 +76,46 @@
     a.about-link {
       &::after {
         content: 'ABOUT';
+      }
+    }
+
+    a.project-link {
+      &::after {
+        content: 'WORK';
+      }
+    }
+    a.contact-link {
+      &::after {
+        content: 'CONTACT';
+      }
+    }
+
+    a.active {
+      svg {
+        color:#E03301;
+      }
+    }
+  }
+  ul {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+
+    li {
+      a {
+        padding: 7px 0;
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
+
+        &:hover svg {
+          color: #E03301;
+        }
       }
     }
   }
