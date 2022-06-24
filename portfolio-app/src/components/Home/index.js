@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import LogoTitle from '../../assets/images/logo-t.png';
 import LogoTitle2 from '../../assets/images/logo-h.png';
+import Logo from './Logo'
 import './index.scss';
 
 const Home = () => {
@@ -25,11 +26,11 @@ const Home = () => {
         'e',
         'r']
 
-    useEffect(() => {
-        return setTimeout(() => {
-            setLetterClass('text-animate-hover')
-        }, 4000)
-    }, [])
+    // useEffect(() => {
+    //     return setTimeout(() => {
+    //         setLetterClass('text-animate-hover')
+    //     }, 4000)
+    // }, [])
 
     return (
         <div className="container home-page">
@@ -57,6 +58,7 @@ const Home = () => {
                 <h2>Frontend Developer / Full Stack Developer</h2> 
                 <Link to="#" className='flat-button'>CONTACT ME</Link>
             </div>
+            <Logo />
         </div>
     );
 }
