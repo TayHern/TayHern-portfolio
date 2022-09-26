@@ -10,7 +10,7 @@
     }
 
     h1 {
-        color: #F7EEDE;
+        color: #ffffff;
         font-size: 53px;
         margin: 0;
         font-family:'Cookie-Regular';
@@ -61,22 +61,22 @@
     }
 
     .flat-button {
-        color: #E03301;
+        color: #000000;
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 4px;
         font-family: 'FiraSans';
         text-decoration: none;
         padding: 10px 18px;
-        border: 1px solid #E03301;
+        border: 1px solid #000000;
         margin-top: 25px;
         float: left;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
 
         &:hover {
-            background-color: #FAA894;
-            color: #E03301;
+            background-color: #FFD1CA;
+            color: #000000;
         }
     }
 }

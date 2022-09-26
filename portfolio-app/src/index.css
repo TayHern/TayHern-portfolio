@@ -3,7 +3,7 @@ body {
   font: 300 13px/1.4 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     'sans-serif';
-  background: #0A113B;
+  background-image: url(../src/assets/images/portfoliobg.png);
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
